@@ -1,0 +1,31 @@
+# CMake / Ninja build tree
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+*.ninja
+.ninja_*
+compile_commands.json
+
+# vcpkg clone (recreated by build.ps1)
+vcpkg/
+
+# Portable package output (recreated by build-dist.ps1)
+dist/
+
+# Visual Studio / VS Code (optional local settings)
+.vs/
+*.vcxproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store
+*.log

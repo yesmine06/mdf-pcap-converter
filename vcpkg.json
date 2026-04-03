@@ -1,0 +1,5 @@
+{
+  "name": "mdf2ascii",
+  "version": "1.0",
+  "dependencies": ["zlib", "expat"]
+}
